@@ -1,0 +1,56 @@
+body {
+  background-color: rgb(253 , 251 , 251);
+  border: 8px;
+  color: rgb(120 , 10 , 250);
+  font-family: Cambria, Cochin, Georgia, Times, serif;
+  font-size: large;
+  line-height: 2em;
+  margin: 8px;
+  padding: 10px;
+}
+
+h2 {
+  font-family: monospace;
+  color: rgb(50 , 20 , 80);
+}
+
+#cabecalho {
+  background-color: rgb(55 , 200 , 120);
+  block-size: 100px;
+  position: fixed;
+  top: 0;
+}
+
+.image-photo img {
+  width: 25%;
+}
+
+.lado-esquerdo {
+  float: left;
+  margin: auto;
+}
+
+.lado-direito {
+  float: right;
+  margin: auto;
+}
+
+.lado-direito p {
+  max-width: 650px;
+  padding-bottom: 37px;
+}
+
+.lado-esquerdo p {
+  max-width: 650px;
+}
+
+.tabela th {
+  background-color: rgb(000 , 255 , 247);
+  border: 2px;
+  color: rgb(darkblue);
+}
+
+.tabela td {
+  background-color: rgb(172 , 205 , 204);
+  color: rgb(midnightblue);
+}
